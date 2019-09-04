@@ -1,0 +1,12 @@
+builders:
+  dotenv2dart:
+    import: "package:dotenv2dart/dotenv2dart.dart"
+    builder_factories:
+      - "dotEnv2DartBuilder"
+    build_extensions: {'.env': ['dot_env.dart']}
+    auto_apply: root_package
+    build_to: cache
+    defaults:
+      generate_for:
+        include:
+          - lib/**
