@@ -1,6 +1,6 @@
 name: dotenv2dart
 description: A dart generator for .env files.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/amadeu01/dotenv2dart
 author: Amadeu Cavalcante <amadeu01@gmail.com>
 
